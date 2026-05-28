@@ -56,6 +56,7 @@ a {
 }
 
 .section-desc {
+    margin-top: 18px;
     font-size: 1.8rem;
     line-height: 1.66;
     font-weight: 300;
@@ -351,4 +352,41 @@ a {
     font-size: 1.6rem;
     line-height: 1.75;
     color: #2e80ce;
+}
+/* =================================FEATURES============================ */
+
+.features {
+    margin-top: 85px;
+    padding: 85px 0;
+}
+
+.features__body {
+    display: flex;
+    align-items: center;
+    column-gap: 130px;
+}
+
+.features__media {
+    width: 48%;
+    position: relative;
+    padding-bottom: 121px;
+    padding-right: 58px;
+}
+
+.features__img {
+    width: 512px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.features__img:last-child {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 332px;
+}
+
+.features__desc {
+    margin-bottom: 38px;
 }
